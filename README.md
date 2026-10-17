@@ -41,18 +41,18 @@ Geodev-lab-Project/
 
 | Week | What it is | Link |
 |---|---|---|
-| 1 | Project brief, with a source link for every dataset | [Month1/01-project-brief.docx](Month1/01-project-brief.docx) |
-| 2 | Data notes: what I downloaded, with sources, feature counts, columns and gaps | [Month1/02-data-notes.md](Month1/02-data-notes.md) |
-| 3 | Data preparation and the five quality checks | [Month1/03-data-preparation.md](Month1/03-data-preparation.md) |
-| 3 | Analysis-ready data (EPSG:32632) | [data/processed/okura_ward_analysis.gpkg](data/processed/okura_ward_analysis.gpkg) |
-| 4 | Analysis, checks and results (2 km buffer) | [Month1/04-month-1-summary.md](Month1/04-month-1-summary.md) |
-| 4 | Map image | [image/health_facilities_2km_okura.png](../image/health_facilities_2km_okura.png) |
+| 1 | Project brief, with a source link for every dataset | [Month1/01-project-brief.docx](Project/Month1/01-project-brief.docx) |
+| 2 | Data notes: what I downloaded, with sources, feature counts, columns and gaps | [Project/Month1/02-data-notes.md](Project/Month1/02-data-notes.md) |
+| 3 | Data preparation and the five quality checks | [Month1/03-data-preparation.md](Project/Month1/03-data-preparation.md) |
+| 3 | Analysis-ready data (EPSG:32632) | [data/processed/okura_ward_analysis.gpkg](Project/Data/processed/okura_ward_analysis.gpkg) |
+| 4 | Analysis, checks and results (2 km buffer) | [Month1/04-month-1-summary.md](Project/Month1/04-month-1-summary.md) |
+| 4 | Map image | [image/health_facilities_2km_okura.png](Project/image/health_facilities_2km_okura.png) |
 
 ## How to repeat it
 
 This project was done by hand in QGIS, so there are no scripts to run. To repeat it:
 
-1. Download the datasets listed in [the project brief](Month1/01-project-brief.docx) and [the data notes](Month1/02-data-notes.md), or use the files in `data/raw/`.
+1. Download the datasets listed in [the project brief](Project/Month1/01-project-brief.docx) and [the data notes](Project/Month1/02-data-notes.md), or use the files in `data/raw/`.
 2. Open QGIS and add `data/processed/okura_ward_analysis.gpkg` (drag it into QGIS, or use *Layer → Add Layer → Add Vector Layer*).
 3. Run *Vector → Geoprocessing Tools → Buffer* on the health facilities layer with a distance of 2000 (metres) and 20 segments.
 4. Dissolve the result, clip it to the Okura Ward boundary, and compare its area with the ward area.
