@@ -41,7 +41,7 @@ Geodev-lab-Project/
 
 | Week | What it is | Link |
 |---|---|---|
-| 1 | Project brief, with a source link for every dataset | [Month1/01-project-brief.docx](Project/Month1/01-project-brief.docx) |
+| 1 | Project brief, with a source link for every dataset | [Month1/01-project-brief.docx](Project/Month1/01-project-brief.md) |
 | 2 | Data notes: what I downloaded, with sources, feature counts, columns and gaps | [Project/Month1/02-data-notes.md](Project/Month1/02-data-notes.md) |
 | 3 | Data preparation and the five quality checks | [Month1/03-data-preparation.md](Project/Month1/03-data-preparation.md) |
 | 3 | Analysis-ready data (EPSG:32632) | [data/processed/okura_ward_analysis.gpkg](Project/Data/processed/okura_ward_analysis.gpkg) |
