@@ -34,6 +34,7 @@ Geodev-lab-Project/
 │       └── okura_ward_analysis.gpkg reprojected and clipped, analysis-ready
 ├── image/
 │   └── health_facilities_2km_okura.png
+|
 └── qgis_project/
 ```
 
@@ -47,6 +48,7 @@ Geodev-lab-Project/
 | 3 | Analysis-ready data (EPSG:32632) | [data/processed/okura_ward_analysis.gpkg](Project/Data/processed/okura_ward_analysis.gpkg) |
 | 4 | Analysis, checks and results (2 km buffer) | [Month1/04-month-1-summary.md](Project/Month1/04-month-1-summary.md) |
 | 4 | Map image | [image/health_facilities_2km_okura.png](Project/image/health_facilities_2km_okura.png) |
+| 5 | Screenshot | [Python.png](Project/Python.png) |
 
 ## How to repeat it
 
@@ -65,6 +67,7 @@ The data sources are GRID3 Nigeria (facilities and boundaries) and OpenStreetMap
 - [x] Week 2, data downloaded, opened and described
 - [x] Week 3, reprojected, clipped and quality checked
 - [x] Week 4, first spatial analysis, checked four ways
+- [x] Week 5, Introduction to python and Visual Studio Code 
 
 ## Limits
 
@@ -74,6 +77,9 @@ The data sources are GRID3 Nigeria (facilities and boundaries) and OpenStreetMap
 - There is no population data yet, so the result is about land area, not number of people.
 
 ---
+
+## Month 2: development environment and early Python
+Week 5: set up Python, VS Code and the terminal. hello.py runs.
 
 Praise Soremekun · GeoDev Lab Africa
 Learn. Build. Collaborate. Transform.
