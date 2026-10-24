@@ -80,6 +80,8 @@ The data sources are GRID3 Nigeria (facilities and boundaries) and OpenStreetMap
 
 ## Month 2: development environment and early Python
 Week 5: set up Python, VS Code and the terminal. hello.py runs.
+Week 6: Set up project with uv and added pandas. Check.py prints the pandas version
+
 
 Praise Soremekun · GeoDev Lab Africa
 Learn. Build. Collaborate. Transform.
